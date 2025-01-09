@@ -1,7 +1,7 @@
 <img src="https://github.com/user-attachments/assets/ab437a4c-37ce-4ad7-8737-c5c6da6d263a" width="100%"/>
 
 # 💕2023 INYRO 프로젝트 - "스뮤시그널": 상명대에서 연인을 찾습니다 (스뮤시그널팀)💕
-- 상명대학교 중앙동아리 **INYRO(이니로)**에서 2023-2학기에 진행한 프로젝트
+- 상명대학교 중앙동아리 **INYRO**(이니로)에서 2023-2학기에 진행한 프로젝트
 <br/>
 
 ## 1. Project Overview
@@ -30,4 +30,46 @@ Team: **스뮤시그널팀** (4명)
   - 매칭된 상대의 정보 전송
 <br/>
 
+## 4. Technology Stack
+- **FrontEnd:** React.js
 
+- **Cooperation:** Git, Notion
+<br/>
+
+## 5. Project Structure
+```plaintext
+smu_signal/
+│  .gitignore
+│  package-lock.json
+│  package.json
+│  README.md
+│
+├─public/
+│      Background.png
+│      index.html
+│      MainLogo.png
+│      manifest.json
+│      robots.txt
+│      SmallLogo.png
+│
+└─src/
+    │  App.css
+    │  App.js
+    │  App.test.js
+    │  index.css
+    │  index.js
+    │  logo.svg
+    │  reportWebVitals.js
+    │  setupTests.js
+    │
+    ├─Components/
+    │      Button.tsx
+    │      SmallLogo.tsx
+    │
+    └─Taps/
+            AddInfo.js
+            Guideline.js
+            Home.js
+            Information.js
+            Requirement.js
+```
